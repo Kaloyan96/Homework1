@@ -39,6 +39,7 @@ void saturateScore(stack<int> &sourceStack, int &sum, int &score, int limit) {
 
 
 int playTheGame(stack<int> stackAlpha, stack<int> stackBravo, int limit) {//might be doable with a "greedy" algorythm
+	//nope. It's not doable with a greedy algorythm.
 	stack<int> elementsFromAlpha;//size of auxStack is NOT current score
 	int sum = 0, score = 0, maxScore = 0;
 
